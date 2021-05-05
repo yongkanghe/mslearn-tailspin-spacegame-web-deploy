@@ -2,6 +2,7 @@ trigger:
 - '*'
 
 pool:
+  name: pool3
   vmImage: 'ubuntu-18.04'
   demands:
   - npm
